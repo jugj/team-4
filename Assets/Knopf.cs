@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Knopf : MonoBehaviour
 {
+    public string levelname;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,6 @@ public class Knopf : MonoBehaviour
     }
     void OnTriggerEnter2D()
     {
-    SceneManager.LoadScene("Level 2");
+    SceneManager.LoadScene(levelname);
     }
 }
