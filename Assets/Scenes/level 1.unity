@@ -942,7 +942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weiterknopf: {fileID: 615823972}
-  resetknopf: {fileID: 32294938}
+  resetbutton: {fileID: 32294938}
 --- !u!4 &489788798
 Transform:
   m_ObjectHideFlags: 0

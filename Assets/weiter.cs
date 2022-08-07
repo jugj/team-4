@@ -13,10 +13,7 @@ public class weiter : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
     
-    }
     public void wieterSpiel()
     {
         Time.timeScale = 1;
