@@ -5,6 +5,7 @@ using UnityEngine;
 public class Pause : MonoBehaviour
 {
     public GameObject weiterknopf;
+    public GameObject resetbutton;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,5 +21,6 @@ public class Pause : MonoBehaviour
     {
         Time.timeScale = 0;
         weiterknopf.SetActive(true);
+        resetbutton.SetActive(true);
     }
 }

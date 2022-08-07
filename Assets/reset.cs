@@ -1,26 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class weiter : MonoBehaviour
+public class reset : MonoBehaviour
 {
-    public GameObject weiterknopf;
+    public string resetbuton;
     public GameObject resetbutton;
     // Start is called before the first frame update
     void Start()
     {
-        weiterknopf.SetActive(false);
+        resetbutton.SetActive(false);   
     }
 
     // Update is called once per frame
-    void Update()
+   
+
+    public void start()
     {
-    
-    }
-    public void wieterSpiel()
-    {
+        SceneManager.LoadScene(resetbuton);
         Time.timeScale = 1;
-        weiterknopf.SetActive(false);
-        resetbutton.SetActive(false);
     }
 }
